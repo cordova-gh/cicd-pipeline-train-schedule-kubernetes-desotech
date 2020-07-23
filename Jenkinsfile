@@ -40,7 +40,7 @@ pipeline {
                 
                 kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
-                    configs: 'myapp.yaml',
+                    configs: 'k8-app.yaml',
                     enableConfigSubstitution: true
                 )
                     
